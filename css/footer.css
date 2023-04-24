@@ -1,0 +1,45 @@
+/* footer */
+.foot_inner li{float: left;}
+.foot_inner li a{color: #fff;}
+.foot_inner>div:first-of-type{width: 100%;padding-bottom: 20px;margin-bottom: 20px;border-bottom: 1px solid #6c6f73;}
+.foot_inner>div:first-of-type::after{content: "";display: block;clear: both;}
+
+.foot_inner>div:first-of-type>ul:first-of-type>li{position: relative;padding: 0 14px;}
+.foot_inner>div:first-of-type>ul:first-of-type>li::after{content: "";display: block;position: absolute;right: 0;top: 50%;margin-top: -7px;width: 1px;height: 14px;background: #999;}
+.foot_inner>div:first-of-type>ul:first-of-type>li:last-of-type::after{display: none;}
+.foot_inner>div>ul:first-of-type>li:first-of-type{padding-left: 0;}
+.foot_inner>div>ul:last-of-type>li:first-of-type{border-right: none;}
+
+/* sns */
+.foot_inner>div:first-of-type>ul:last-of-type{float: right;}
+.foot_inner>div:first-of-type>ul:last-of-type::after{content: "";display: block;clear: both;}
+.foot_inner>div:first-of-type>ul:last-of-type>li{width: 21px;height: 21px;margin-left: 15px;}
+
+.foot_inner>div:first-of-type>ul:last-of-type>li>a{display: block;height: 21px;margin-left: 0px;background: url(../images/sns_link_ico.png) no-repeat 0 0;text-indent: -9999px;overflow: hidden;}
+
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-of-type(1)>a{background-position: 8px 0;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-of-type(2)>a{background-position: -30px 0;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-of-type(3)>a{background-position: -60px 0;}
+.foot_inner>div:first-of-type>ul:last-of-type>li:nth-of-type(4)>a{background-position: -90px 0;}
+
+/* 하단 */
+.foot_inner>div:last-of-type>ul{display: inline-block;margin-bottom: 20px;}
+
+.foot_inner>div:last-of-type>ul>li{padding-right: 30px;}
+.foot_inner>div:last-of-type>ul>li>a{font-weight: none;color: #ccc;}
+.foot_inner>div:last-of-type>ul>li:nth-of-type(3)>a{color: #00ccff;}
+
+.foot_inner>div:last-of-type>p{float: right;font-size: 12px;color: #ccc;}
+
+.foot_inner>div:last-of-type>address{color: #ccc;width: 420px;}
+.foot_inner>div:last-of-type>address>span{position: relative;padding-right: 11px;margin-right: 10px;}
+.foot_inner>div:last-of-type>address>span::after{content: "";display: block;position: absolute;right: 0;top: 50%;margin-top: -5px;width: 1px;height: 10px;background: #999;}
+
+.foot_inner>div:last-of-type>address>span:last-child::after,.foot_inner>div:last-of-type>address>span:nth-of-type(3)::after{display: none;}
+
+/* 상단으로 이동 */
+.btns{position: fixed;display: flex;flex-direction: column;justify-content: space-between;right: 80px;bottom: 30px;}
+.btns>a{opacity: 0;width: 64px;height: 64px;border: 1px solid #ddd;border-radius: 50%;background: #fff url(../images/new/ico_top.png) no-repeat 50% 20%;font-size: 13px;text-align: center;line-height: 80px;cursor: pointer;box-sizing: border-box;}
+.btns.on>a{opacity: 1;display: block;z-index: 33;transition: opacity 0.5s linear;}
+.btns>a.btn_museum{overflow: hidden;margin-bottom: 10px;background-color: #333;background-image: url(../images/new/ico_museum.png);text-indent: -9999px;border: none;}
+.btns.ab{position: absolute;bottom: auto;top: -160px;right: 80px;}
