@@ -26,7 +26,7 @@
 .foot_inner>div:last-of-type>ul{display: inline-block;margin-bottom: 20px;}
 
 .foot_inner>div:last-of-type>ul>li{padding-right: 30px;}
-.foot_inner>div:last-of-type>ul>li>a{font-weight: none;color: #ccc;}
+.foot_inner>div:last-of-type>ul>li>a{font-weight: normal;color: #ccc;}
 .foot_inner>div:last-of-type>ul>li:nth-of-type(3)>a{color: #00ccff;}
 
 .foot_inner>div:last-of-type>p{float: right;font-size: 12px;color: #ccc;}
