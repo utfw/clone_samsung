@@ -15,4 +15,4 @@
 
 ## 원본 사이트
 
-[삼성전기](https://www.fescaro.com/kr/index.php](https://www.cjone.com/)
+[삼성전기](https://www.samsungsem.com/)
